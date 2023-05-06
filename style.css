@@ -37,6 +37,7 @@
 .botoes {
     display: flex;
     justify-content: center;
+    /* margin: 10px 10px 10px 10px; */
 }
 
 button {
@@ -78,4 +79,23 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 840px) {
+    h1 {
+        font-size: 24px;
+    }
+    #map {
+        width: 350px;
+        height: 350px;
+    }
+    .botoes{
+        margin: 10px 10px 10px 10px;
+    }
+    button {
+        margin: 10px 5px 10px 5px;
+        border-radius: 5px;
+        padding: 5px 9px;
+        font-size: 12px;
+    }
 }
